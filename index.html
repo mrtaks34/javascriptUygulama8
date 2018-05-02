@@ -26,16 +26,15 @@
 
     <script type="text/javascript">
         var s1=0,s2=0;
-        var i,c;
         var carpim=1;
    document.getElementById("hesapla").onclick = function ()
         {               
         s1 = Number(document.getElementById("sayi1").value);;
         s2 = Number(document.getElementById("sayi2").value);
-            for (i=1, i>=a,i++)
+            for (var i = 1; i <= s1; i++)
        {
             {
-                for (c=1,c>=b,c++)
+               for (var c = 1; c <= s2; c++)
                     carpim=i*c;
             }
         }
